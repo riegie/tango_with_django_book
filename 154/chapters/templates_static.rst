@@ -209,7 +209,7 @@ To demonstrate how to include static media, open up ``index.html`` located in th
 	        <h1>Rango says...</h1>
 	        hello world! <strong>{{ boldmessage }}</strong><br />
 	        <a href="/rango/about/">About</a><br />
-	        <img src="{% static "rango.jpg" %}" alt="Picture of Rango" /> <!-- New line -->
+	        <img src="{% static "rango.jpeg" %}" alt="Picture of Rango" /> <!-- New line -->
 	    </body>
 	
 	</html>
@@ -249,7 +249,7 @@ The ``{% static %}`` function call should be used whenever you wish to reference
 	    
 	    <body>
 	        <h1>Including Static Media</h1>
-	        <img src="{% static "rango.jpg" %}" alt="Picture of Rango" /> <!-- Images -->
+	        <img src="{% static "rango.jpeg" %}" alt="Picture of Rango" /> <!-- Images -->
 	    </body>
 	
 	</html>
